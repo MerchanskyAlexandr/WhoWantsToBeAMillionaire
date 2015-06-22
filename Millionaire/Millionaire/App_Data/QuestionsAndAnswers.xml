@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <Title>Скільки зірок на прапорі США?</Title>
+    <Answers>
+      <string>48</string>
+      <string>49</string>
+      <string>50</string>
+      <string>52</string>
+    </Answers>
+    <Correct>2</Correct>
+  </Question>  
+  <Question>
+    <Title>Що каже нам Windows XP при запуску?</Title>
+    <Answers>
+      <string>Привітання</string>
+      <string>Побажання</string>
+      <string>Система не працює</string>
+      <string>Бувай друже</string>
+    </Answers>
+    <Correct>0</Correct>
+  </Question>
+  <Question>
+    <Title>Який з цих гормонів є лише у жінок?</Title>
+    <Answers>
+      <string>Тестостерон</string>
+      <string>Прогестерон</string>
+      <string>Ендокринон</string>
+      <string>Адреналін</string>
+    </Answers>
+    <Correct>1</Correct>
+  </Question>
+  <Question>
+    <Title>Яку частину тіла найчастіше ушкоджують спортсмени?</Title>
+    <Answers>
+      <string>Голову</string>
+      <string>Плече</string>
+      <string>Коліно</string>
+      <string>Щелепу</string>
+    </Answers>
+    <Correct>2</Correct>
+  </Question>
+  <Question>
+    <Title>У якій країні знаходиться Великий каньйон?</Title>
+    <Answers>
+      <string>США</string>
+      <string>Канада</string>
+      <string>Мексика</string>
+      <string>Австралія</string>
+    </Answers>
+    <Correct>0</Correct>
+  </Question>
+  <Question>
+    <Title>Якого з цих типів принтерів не існує?</Title>
+    <Answers>
+      <string>Лазерні</string>
+      <string>Струменеві</string>
+      <string>Матричні</string>
+      <string>Лампові</string>
+    </Answers>
+    <Correct>3</Correct>
+  </Question>
+  <Question>
+    <Title>Як інакше називають ноутбук?</Title>
+    <Answers>
+      <string>Палмтоп</string>
+      <string>Десктоп</string>
+      <string>Лептоп</string>
+      <string>Хендтоп</string>
+    </Answers>
+    <Correct>2</Correct>
+  </Question>
+  <Question>
+    <Title>Яка марка машини була у водія у фільмі "Таксі"?</Title>
+    <Answers>
+      <string>Пежо</string>
+      <string>Рено</string>
+      <string>Сітроен</string>
+      <string>Міцубіші</string>
+    </Answers>
+    <Correct>0</Correct>
+  </Question>
+  <Question>
+    <Title>На якій вулиці мешкав Шерлок Холмс?</Title>
+    <Answers>
+      <string>Бейкер-стріт</string>
+      <string>Петрівка 38</string>
+      <string>Маросейка 12</string>
+      <string>Вулиця В'язів</string>
+    </Answers>
+    <Correct>0</Correct>
+  </Question>
+  <Question>
+    <Title>Клаустрофобія - це боязнь чого?</Title>
+    <Answers>
+      <string>Відкритого простору</string>
+      <string>Замкненого простору</string>
+      <string>Темряви</string>
+      <string>Павуків</string>
+    </Answers>
+    <Correct>1</Correct>
+  </Question>
+  <Question>
+    <Title>Яка шахова фігура ходить лише по діагоналі?</Title>
+    <Answers>
+      <string>Пішак</string>
+      <string>Кінь</string>
+      <string>Слон</string>
+      <string>Король</string>
+    </Answers>
+    <Correct>2</Correct>
+  </Question>
+  <Question>
+    <Title>Коли святкують День незалежності України?</Title>
+    <Answers>
+      <string>23 серпня</string>
+      <string>24 серпня</string>
+      <string>25 серпня</string>
+      <string>1 січня</string>
+    </Answers>
+    <Correct>1</Correct>
+  </Question>
+  <Question>
+    <Title>Скільки літер в українській абетці?</Title>
+    <Answers>
+      <string>10</string>
+      <string>26</string>
+      <string>33</string>
+      <string>60</string>
+    </Answers>
+    <Correct>2</Correct>
+  </Question>
+  <Question>
+    <Title>Скільки планет у Сонячній системі на сьогоднішній день?</Title>
+    <Answers>
+      <string>10</string>
+      <string>9</string>
+      <string>7</string>
+      <string>8</string>
+    </Answers>
+    <Correct>3</Correct>
+  </Question>
+  <Question>
+    <Title>Яким словом називають скриньку електронної пошти?</Title>
+    <Answers>
+      <string>Мило</string>
+      <string>Шило</string>
+      <string>Мотовило</string>
+      <string>Білило</string>
+    </Answers>
+    <Correct>0</Correct>
+  </Question>
+</ArrayOfQuestion>

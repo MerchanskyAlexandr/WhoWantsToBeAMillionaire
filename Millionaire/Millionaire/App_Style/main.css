@@ -1,0 +1,70 @@
+﻿body {
+    background: black;
+}
+#mainForm {
+    width: 800px;
+    margin: 0 auto;
+    height: 500px;
+    background: blue;
+}
+#wrapper-of-tooltips {
+    width: 800px;
+    height: 50px;
+}
+#wrapper-of-tooltips input{
+    float: right;
+}
+#wrapper-of-cash {
+    float: right;
+    width: 200px;
+    height: 330px;
+}
+#wrapper-of-quest-answr {
+    width: 450px;
+    margin-top: 20px;
+    border: 1px solid white;
+    height: 200px;
+    margin-left: 60px;
+}
+#wrapper-of-quest-answr input{
+    width: 180px;
+    height: 30px;
+    float: left;
+    margin-left: 27px;
+}
+#lblQuestions {
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin: 10px 20px 10px 20px;
+    border: 1px solid white;
+}
+#tblMoney {
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: 600;
+    color: orange;
+    white-space: normal;
+    line-height: normal;
+    margin: 0 auto;
+}
+.safe-sum {
+    color: white;
+    
+}
+.current-sum {
+    background: red;
+
+}
+.before-sum {
+    background: transparent;
+
+}
+.button-50-50-used {
+    background: black;
+}
+.showDiv {
+    width: 200px;
+    height: 200px;
+    background: blanchedalmond;
+}
