@@ -19,14 +19,16 @@ namespace Millionaire
         private static Question[] _questions;
         private static int _questionCount;
         private static Random _random;
+        private static string _path = HttpContext.Current.Server.MapPath("~/App_Data/QuestionsAndAnswers.xml");
 
         static Millionaire()
         {
+            
             XmlSerializer formatter = new XmlSerializer(typeof(Question[]));
             using (
                 FileStream fs =
                     new FileStream(
-                        @"F:\Programming\Millionaire11\Millionaire\Millionaire\App_Data\QuestionsAndAnswers.xml",
+                        _path,
                         FileMode.OpenOrCreate))
             {
                 _questions = (Question[])formatter.Deserialize(fs);
@@ -67,8 +69,8 @@ namespace Millionaire
             int first;
             int second;
             FiftyFifty(out first, out second);
-            btnFifty.CssClass = "button-50-50-used";
             btnFifty.Enabled = false;
+            btnFifty.CssClass = "button-50-50-used";
         }
      
 
@@ -82,17 +84,17 @@ namespace Millionaire
                            " C: " + _questions[_questionCount].Answers[2] +
                            " D: " + _questions[_questionCount].Answers[3];
             message.BodyEncoding = Encoding.GetEncoding("Utf-8");
-            message.From = new MailAddress("alexandrmerchansky@gmail.com");
-            message.To.Add(new MailAddress("a.merchaskyj@gmail.com"));
+            message.From = new MailAddress("wwtbamillionaire@gmail.com ");
+            message.To.Add(new MailAddress("alexandrmerchansky@gmail.com"));
             SmtpClient smtp = new SmtpClient
             {
                 Port = 587,
                 EnableSsl = true,
-                Credentials = new NetworkCredential("alexandrmerchansky@gmail.com", "vthxsr1993"),
+                Credentials = new NetworkCredential("wwtbamillionaire@gmail.com ", "wwtbamillionaire2015"),
                 Host = "smtp.gmail.com"
             };
             smtp.Send(message);
-            btnCall.CssClass = "button-50-50-used";
+            btnCall.CssClass = "button-call-used";
             btnCall.Enabled = false;
         }
 
@@ -100,7 +102,7 @@ namespace Millionaire
         {
             ClientScript.RegisterStartupScript(this.GetType(), "window.open", "window.open('https://www.google.com.ua/search?q="+ _questions[_questionCount].Title +"')", true);
             btnHall.Enabled = false;
-            btnHall.CssClass = "button-50-50-used";
+            btnHall.CssClass = "button-hall-used";
         }
 
         private void FillQuestAndAnswr(Question questions)
@@ -187,6 +189,7 @@ namespace Millionaire
                 {
                     case 0:
                         btnA.Text = "";
+                        btnA.Attributes.Remove("class");
                         btnA.Enabled = false;
                         break;
                     case 1:

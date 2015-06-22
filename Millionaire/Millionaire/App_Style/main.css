@@ -1,55 +1,69 @@
 ﻿body {
-    background: black;
+    background: #031c31;
 }
 #mainForm {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
-    height: 500px;
-    background: blue;
+    height: 800px;
+    background: url('../Resources/bg.png');
 }
 #wrapper-of-tooltips {
-    width: 800px;
-    height: 50px;
+    height: 110px;
 }
 #wrapper-of-tooltips input{
     float: right;
+    cursor: pointer;
 }
 #wrapper-of-cash {
     float: right;
     width: 200px;
-    height: 330px;
+    height: 500px;
+    margin-right: 45px;
+    margin-top: 20px;
 }
 #wrapper-of-quest-answr {
-    width: 450px;
-    margin-top: 20px;
-    border: 1px solid white;
-    height: 200px;
+    width: 650px;
+    margin-top: 330px;
+    height: 300px;
     margin-left: 60px;
 }
 #wrapper-of-quest-answr input{
-    width: 180px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     float: left;
-    margin-left: 27px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-family: Verdana;
+    color: #eee2f5;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-left: 60px;
+    text-align: left;
+    
 }
 #lblQuestions {
-    width: 400px;
-    height: 100px;
+    width: 560px;
+    height: 80px;
     float: left;
     margin: 10px 20px 10px 20px;
-    border: 1px solid white;
+    padding: 60px 20px 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana;
+    color: #eee2f5;
+    background: url('../Resources/questions.png');
 }
 #tblMoney {
-    font-size: 15px;
+    font-size: 20px;
     font-family: Verdana;
     font-weight: 600;
     color: orange;
     white-space: normal;
     line-height: normal;
-    margin: 0 auto;
 }
 .safe-sum {
-    color: white;
+    color: #eee2f5;
     
 }
 .current-sum {
@@ -61,10 +75,70 @@
 
 }
 .button-50-50-used {
-    background: black;
+    background: url('../Resources/fifty-used.png') !important;
+    width: 89px;
+    height: 87px;
+    border: none;
+    margin: 15px 20px 0 0;
+    border: none;
 }
-.showDiv {
-    width: 200px;
-    height: 200px;
-    background: blanchedalmond;
+.button-call-used {
+    background: url('../Resources/call-used.png') !important;
+    width: 89px;
+    height: 87px;
+    border: none;
+    margin: 15px 20px 0 0;
+    border: none;
+}
+.button-hall-used {
+    background: url('../Resources/hall-used.png') !important;
+    width: 89px;
+    height: 87px;
+    border: none;
+    margin: 15px 20px 0 0;
+    border: none;
+}
+
+#btnFifty {
+    background: url('../Resources/fifty.png');
+}
+#btnCall {
+    background: url('../Resources/call.png');
+}
+#btnHall {
+    background: url('../Resources/hall.png');
+}
+#btnA {
+    background: url('../Resources/btnA.png');
+}
+#btnB {
+    background: url('../Resources/btnB.png');
+}
+#btnC {
+    background: url('../Resources/btnC.png');
+}
+#btnD {
+    background: url('../Resources/btnD.png');
+}
+#btnA:hover {
+    background: url('../Resources/btnA-hover.png');
+}
+#btnB:hover {
+    background: url('../Resources/btnB-hover.png');
+}
+#btnC:hover {
+    background: url('../Resources/btnC-hover.png');
+}
+#btnD:hover {
+    background: url('../Resources/btnD-hover.png');
+}
+
+.tooltips-buttons {
+    width: 89px;
+    height: 87px;
+    border: none;
+    margin: 15px 20px 0 0;
+}
+.million {
+    color: yellow;
 }

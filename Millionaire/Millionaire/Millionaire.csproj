@@ -60,9 +60,30 @@
     <Content Include="App_Data\QuestionsAndAnswers.xml" />
     <Content Include="Millionaire.aspx" />
     <Content Include="App_Style\main.css" />
+    <None Include="Resources\fifty.png" />
+    <None Include="Resources\call.png" />
+    <None Include="Resources\hall.png" />
+    <None Include="Resources\questions.png" />
+    <None Include="Resources\btnA.png" />
+    <None Include="Resources\btnB.png" />
+    <None Include="Resources\btnC.png" />
+    <None Include="Resources\btnD.png" />
+    <None Include="Resources\btnA-hover.png" />
+    <None Include="Resources\btnB-hover.png" />
+    <None Include="Resources\btnC-hover.png" />
+    <None Include="Resources\btnD-hover.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\call-used.png" />
+    <None Include="Resources\fifty-used.png" />
+    <None Include="Resources\hall-used.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Question.cs" />
     <Compile Include="Millionaire.aspx.cs">
       <DependentUpon>Millionaire.aspx</DependentUpon>
@@ -81,7 +102,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

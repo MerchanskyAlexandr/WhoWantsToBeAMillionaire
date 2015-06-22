@@ -12,87 +12,87 @@
         
         <div id="wrapper-of-tooltips">
 
-            <asp:Button ID="btnHall" runat="server" Text="" OnClick="btnHall_Click"/>
-            <asp:Button ID="btnCall" runat="server" Text="" OnClick="btnCall_Click" />
-            <asp:Button ID="btnFifty" runat="server" Text="" OnClick="btnFifty_Click" />
+            <asp:Button ID="btnHall" CssClass="tooltips-buttons" runat="server" Text="" OnClick="btnHall_Click"/>
+            <asp:Button ID="btnCall" CssClass="tooltips-buttons" runat="server" Text="" OnClick="btnCall_Click" />
+            <asp:Button ID="btnFifty" CssClass="tooltips-buttons" runat="server" Text="" OnClick="btnFifty_Click" />
             
         </div>
 
         <div id ="wrapper-of-cash">
             <table id ="tblMoney" runat="server">
                 <tr>
-                    <td>
-                        15. 1 000 000
+                    <td class="million">
+                        15. $ 1 MILLION
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        14. 500 000
+                        14. $ 500 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        13. 250 000
+                        13. $ 250 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        12. 125 000
+                        12. $ 125 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        11. 64 000
+                        11. $ 64 000
                     </td>
                 </tr>
                 <tr>
                     <td class="safe-sum">
-                        10. 32 000
+                        10. $ 32 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        9. 16 000
+                        9. $ 16 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        8. 8 000
+                        8. $ 8 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        7. 4 000
+                        7. $ 4 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        6. 2 000
+                        6. $ 2 000
                     </td>
                 </tr>
                 <tr>
                     <td class="safe-sum">
-                        5. 1 000
+                        5. $ 1 000
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        4. 500
+                        4. $ 500
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        3. 300
+                        3. $ 300
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        2. 200
+                        2. $ 200
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        1. 100
+                        1. $ 100
                     </td>
                 </tr>
             </table>
@@ -101,16 +101,13 @@
         <div id="wrapper-of-quest-answr">
             
             <asp:Label ID="lblQuestions" runat="server" Text="Label"></asp:Label>
-            <asp:Button ID="btnA" CssClass="answer-buttons" runat="server" Text="" OnClick="btnA_Click"  UseSubmitBehavior="False"/>
+            <asp:Button ID="btnA" CssClass="answer-buttons" runat="server" Text="" OnClick="btnA_Click" />
             <asp:Button ID="btnB" CssClass="answer-buttons" runat="server" Text="" OnClick="btnB_Click" />
             <asp:Button ID="btnC" CssClass="answer-buttons" runat="server" Text="" OnClick="btnC_Click" />
             <asp:Button ID="btnD" CssClass="answer-buttons" runat="server" Text="" OnClick="btnD_Click" />        
             
 
         </div>
-        <div id="divM" runat="server">
-            </div>
-
     </form>
 </body>
 </html>
