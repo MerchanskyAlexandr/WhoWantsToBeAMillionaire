@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millionaire", "Millionaire\Millionaire.csproj", "{02C80611-738E-4585-9CDC-4D6C083F3C43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millionaire.WebUi", "Millionaire.WebUi\Millionaire.WebUi.csproj", "{D2027A1A-B97B-4797-8FE6-3D2EC1D6EF74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{02C80611-738E-4585-9CDC-4D6C083F3C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02C80611-738E-4585-9CDC-4D6C083F3C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02C80611-738E-4585-9CDC-4D6C083F3C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02C80611-738E-4585-9CDC-4D6C083F3C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2027A1A-B97B-4797-8FE6-3D2EC1D6EF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2027A1A-B97B-4797-8FE6-3D2EC1D6EF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2027A1A-B97B-4797-8FE6-3D2EC1D6EF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2027A1A-B97B-4797-8FE6-3D2EC1D6EF74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

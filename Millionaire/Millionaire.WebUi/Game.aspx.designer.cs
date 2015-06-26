@@ -7,19 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Millionaire {
+namespace Millionaire.WebUi {
     
     
-    public partial class Millionaire {
-        
-        /// <summary>
-        /// mainForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm mainForm;
+    public partial class Game {
         
         /// <summary>
         /// btnHall control.
@@ -49,13 +40,22 @@ namespace Millionaire {
         protected global::System.Web.UI.WebControls.Button btnFifty;
         
         /// <summary>
-        /// tblMoney control.
+        /// btnMoney control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTable tblMoney;
+        protected global::System.Web.UI.WebControls.Button btnMoney;
+        
+        /// <summary>
+        /// TableCash control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Millionaire.WebUi.TableCash TableCash;
         
         /// <summary>
         /// lblQuestions control.

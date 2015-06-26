@@ -1,0 +1,29 @@
+﻿body {
+    background: #031c31;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 15px;
+    color: #eee2f5;
+}
+#header {
+    height:50px;
+    border-bottom: 3px solid white;
+}
+#header-img {
+    width: 613px;
+    height: 32px;
+    background: url('images/header-img.png');
+    margin: 9px auto;
+}
+#footer {
+    height: 35px;
+    border-top: 3px solid white;
+    padding-top: 15px;
+    text-align: center;
+}
+#wrapper-content {
+    width: 1000px;
+    margin: 0 auto;
+    height: 800px;
+}

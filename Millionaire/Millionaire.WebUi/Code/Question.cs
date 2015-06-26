@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
-using System.Xml.XPath;
-using Microsoft.SqlServer.Server;
+using System.Web;
 
-namespace Millionaire
+namespace Millionaire.WebUi.Code
 {
     public class Question
     {
@@ -15,5 +12,6 @@ namespace Millionaire
         public string[] Answers { get; set; }
 
         public int Correct { get; set; }
+
     }
 }

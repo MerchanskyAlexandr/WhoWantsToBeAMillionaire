@@ -1,11 +1,8 @@
-﻿body {
-    background: #031c31;
-}
-#mainForm {
-    width: 1000px;
-    margin: 0 auto;
-    height: 800px;
-    background: url('../Resources/bg.png');
+﻿#wrapper-of-game {
+      width: 1000px;
+      margin: 0 auto;
+      height: 800px;
+      background: url('images/bg.png');
 }
 #wrapper-of-tooltips {
     height: 110px;
@@ -42,7 +39,7 @@
     text-align: left;
     
 }
-#lblQuestions {
+.lblQuestions {
     width: 560px;
     height: 80px;
     float: left;
@@ -52,9 +49,9 @@
     text-align: center;
     font-family: Verdana;
     color: #eee2f5;
-    background: url('../Resources/questions.png');
+    background: url('images/questions.png');
 }
-#tblMoney {
+.tblMoney {
     font-size: 20px;
     font-family: Verdana;
     font-weight: 600;
@@ -75,7 +72,7 @@
 
 }
 .button-50-50-used {
-    background: url('../Resources/fifty-used.png') !important;
+    background: url('images/fifty-used.png') !important;
     width: 89px;
     height: 87px;
     border: none;
@@ -83,7 +80,7 @@
     border: none;
 }
 .button-call-used {
-    background: url('../Resources/call-used.png') !important;
+    background: url('images/call-used.png') !important;
     width: 89px;
     height: 87px;
     border: none;
@@ -91,46 +88,51 @@
     border: none;
 }
 .button-hall-used {
-    background: url('../Resources/hall-used.png') !important;
+    background: url('images/hall-used.png') !important;
     width: 89px;
     height: 87px;
     border: none;
     margin: 15px 20px 0 0;
     border: none;
 }
+.btnMoney {
+    background: url('images/fifty.png');
+    float: left !important;
+    margin: 20px 0 0 40px !important;
+}
 
-#btnFifty {
-    background: url('../Resources/fifty.png');
+.btnFifty {
+    background: url('images/fifty.png');
 }
-#btnCall {
-    background: url('../Resources/call.png');
+.btnCall {
+    background: url('images/call.png');
 }
-#btnHall {
-    background: url('../Resources/hall.png');
+.btnHall {
+    background: url('images/hall.png');
 }
-#btnA {
-    background: url('../Resources/btnA.png');
+.btnA {
+    background: url('images/btnA.png');
 }
-#btnB {
-    background: url('../Resources/btnB.png');
+.btnB {
+    background: url('images/btnB.png');
 }
-#btnC {
-    background: url('../Resources/btnC.png');
+.btnC {
+    background: url('images/btnC.png');
 }
-#btnD {
-    background: url('../Resources/btnD.png');
+.btnD {
+    background: url('images/btnD.png');
 }
-#btnA:hover {
-    background: url('../Resources/btnA-hover.png');
+.btnA:hover {
+    background: url('images/btnA-hover.png');
 }
-#btnB:hover {
-    background: url('../Resources/btnB-hover.png');
+.btnB:hover {
+    background: url('images/btnB-hover.png');
 }
-#btnC:hover {
-    background: url('../Resources/btnC-hover.png');
+.btnC:hover {
+    background: url('images/btnC-hover.png');
 }
-#btnD:hover {
-    background: url('../Resources/btnD-hover.png');
+.btnD:hover {
+    background: url('images/btnD-hover.png');
 }
 
 .tooltips-buttons {

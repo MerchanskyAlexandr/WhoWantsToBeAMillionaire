@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{02C80611-738E-4585-9CDC-4D6C083F3C43}</ProjectGuid>
+    <ProjectGuid>{D2027A1A-B97B-4797-8FE6-3D2EC1D6EF74}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Millionaire</RootNamespace>
-    <AssemblyName>Millionaire</AssemblyName>
+    <RootNamespace>Millionaire.WebUi</RootNamespace>
+    <AssemblyName>Millionaire.WebUi</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -58,43 +58,83 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\QuestionsAndAnswers.xml" />
-    <Content Include="Millionaire.aspx" />
-    <Content Include="App_Style\main.css" />
-    <None Include="Resources\fifty.png" />
-    <None Include="Resources\call.png" />
-    <None Include="Resources\hall.png" />
-    <None Include="Resources\questions.png" />
-    <None Include="Resources\btnA.png" />
-    <None Include="Resources\btnB.png" />
-    <None Include="Resources\btnC.png" />
-    <None Include="Resources\btnD.png" />
-    <None Include="Resources\btnA-hover.png" />
-    <None Include="Resources\btnB-hover.png" />
-    <None Include="Resources\btnC-hover.png" />
-    <None Include="Resources\btnD-hover.png" />
-    <None Include="Resources\bg.png" />
-    <None Include="Resources\call-used.png" />
-    <None Include="Resources\fifty-used.png" />
-    <None Include="Resources\hall-used.png" />
+    <Content Include="App_Themes\Default\default.css" />
+    <Content Include="App_Themes\Default\game.css" />
+    <Content Include="App_Themes\Default\images\bg.png" />
+    <Content Include="App_Themes\Default\images\btnA-hover.png" />
+    <Content Include="App_Themes\Default\images\btnA.png" />
+    <Content Include="App_Themes\Default\images\btnB-hover.png" />
+    <Content Include="App_Themes\Default\images\btnB.png" />
+    <Content Include="App_Themes\Default\images\btnC-hover.png" />
+    <Content Include="App_Themes\Default\images\btnC.png" />
+    <Content Include="App_Themes\Default\images\btnD-hover.png" />
+    <Content Include="App_Themes\Default\images\btnD.png" />
+    <Content Include="App_Themes\Default\images\call-used.png" />
+    <Content Include="App_Themes\Default\images\call.png" />
+    <Content Include="App_Themes\Default\images\fifty-used.png" />
+    <Content Include="App_Themes\Default\images\fifty.png" />
+    <Content Include="App_Themes\Default\images\hall-used.png" />
+    <Content Include="App_Themes\Default\images\hall.png" />
+    <Content Include="App_Themes\Default\images\header-img.png" />
+    <Content Include="App_Themes\Default\images\logo.png" />
+    <Content Include="App_Themes\Default\images\questions.png" />
+    <Content Include="App_Themes\Default\images\result.png" />
+    <Content Include="App_Themes\Default\images\start.png" />
+    <Content Include="App_Themes\Default\images\user-name.png" />
+    <Content Include="App_Themes\Default\result.css" />
+    <Content Include="App_Themes\Default\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Game.aspx" />
+    <Content Include="Result.aspx" />
+    <Content Include="TableCash.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Question.cs" />
-    <Compile Include="Millionaire.aspx.cs">
-      <DependentUpon>Millionaire.aspx</DependentUpon>
+    <Compile Include="Code\Cash.cs" />
+    <Compile Include="Code\Keys\SessionKeys.cs" />
+    <Compile Include="Code\Pattern\Repository\IQuestionRepository.cs" />
+    <Compile Include="Code\Pattern\Repository\XmlQuestionRepository.cs" />
+    <Compile Include="Code\Question.cs" />
+    <Compile Include="Code\UserName.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Millionaire.aspx.designer.cs">
-      <DependentUpon>Millionaire.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game.aspx.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game.aspx.designer.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterPage.Master.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterPage.Master.designer.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.aspx.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Result.aspx.designer.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TableCash.ascx.cs">
+      <DependentUpon>TableCash.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TableCash.ascx.designer.cs">
+      <DependentUpon>TableCash.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="masterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -102,12 +142,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -121,9 +156,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>20810</DevelopmentServerPort>
+          <DevelopmentServerPort>47875</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:20810/</IISUrl>
+          <IISUrl>http://localhost:47875/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,0 +1,10 @@
+﻿.lblResult {
+    width: 600px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    background: url('images/questions.png');
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}

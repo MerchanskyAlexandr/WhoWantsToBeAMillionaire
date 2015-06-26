@@ -1,25 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Millionaire.aspx.cs" Inherits="Millionaire.Millionaire" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Millionaire</title>
-    <link href="App_Style/main.css" rel="stylesheet" />
-</head>
-<body>
-    <form id="mainForm" runat="server">
-        
-        <div id="wrapper-of-tooltips">
-
-            <asp:Button ID="btnHall" CssClass="tooltips-buttons" runat="server" Text="" OnClick="btnHall_Click"/>
-            <asp:Button ID="btnCall" CssClass="tooltips-buttons" runat="server" Text="" OnClick="btnCall_Click" />
-            <asp:Button ID="btnFifty" CssClass="tooltips-buttons" runat="server" Text="" OnClick="btnFifty_Click" />
-            
-        </div>
-
-        <div id ="wrapper-of-cash">
-            <table id ="tblMoney" runat="server">
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="TableCash.ascx.cs" Inherits="Millionaire.WebUi.TableCash" %>
+            <table class ="tblMoney" id="tblMoney" runat="server">
                 <tr>
                     <td class="million">
                         15. $ 1 MILLION
@@ -96,18 +76,3 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        
-        <div id="wrapper-of-quest-answr">
-            
-            <asp:Label ID="lblQuestions" runat="server" Text="Label"></asp:Label>
-            <asp:Button ID="btnA" CssClass="answer-buttons" runat="server" Text="" OnClick="btnA_Click" />
-            <asp:Button ID="btnB" CssClass="answer-buttons" runat="server" Text="" OnClick="btnB_Click" />
-            <asp:Button ID="btnC" CssClass="answer-buttons" runat="server" Text="" OnClick="btnC_Click" />
-            <asp:Button ID="btnD" CssClass="answer-buttons" runat="server" Text="" OnClick="btnD_Click" />        
-            
-
-        </div>
-    </form>
-</body>
-</html>

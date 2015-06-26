@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.Master.cs" Inherits="Millionaire.WebUi.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <header id ="header">
+            <div id ="header-img">
+            </div>
+        </header>
+
+        <div id ="wrapper-content">
+            
+            <asp:ContentPlaceHolder ID="content" runat="server">
+        
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+        <footer id ="footer">
+            Developed by Merchansky
+        </footer>
+    </form>
+</body>
+</html>
